@@ -47,3 +47,509 @@
 2017-03-28 12:10:01,812 - socketserver - DEBUG - accept connection from 127.0.0.1, 39076, fd = 6
 2017-03-28 12:10:02,814 - socketserver - DEBUG - accept connection from 127.0.0.1, 39077, fd = 6
 2017-03-28 12:10:03,816 - socketserver - DEBUG - accept connection from 127.0.0.1, 39078, fd = 6
+2017-03-28 14:45:56,974 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39094, fd = 6
+2017-03-28 14:45:57,977 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39095, fd = 6
+2017-03-28 14:45:58,979 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39096, fd = 6
+2017-03-28 14:45:59,982 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39097, fd = 6
+2017-03-28 14:46:00,984 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39098, fd = 6
+2017-03-28 14:46:01,987 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39099, fd = 6
+2017-03-28 14:46:02,989 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39100, fd = 6
+2017-03-28 14:46:03,993 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39101, fd = 6
+2017-03-28 14:46:04,995 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39102, fd = 6
+2017-03-28 14:46:05,998 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39103, fd = 6
+2017-03-28 14:46:07,000 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39104, fd = 6
+2017-03-28 14:46:08,002 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39105, fd = 6
+2017-03-28 14:46:09,004 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39106, fd = 6
+2017-03-28 14:48:44,519 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39107, fd = 6
+2017-03-28 14:48:45,521 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39108, fd = 6
+2017-03-28 14:48:46,524 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39109, fd = 6
+2017-03-28 14:48:47,526 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39110, fd = 6
+2017-03-28 14:48:48,528 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39111, fd = 6
+2017-03-28 14:48:49,531 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39112, fd = 6
+2017-03-28 14:48:50,533 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39113, fd = 6
+2017-03-28 14:48:51,536 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39114, fd = 6
+2017-03-28 14:48:52,538 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39115, fd = 6
+2017-03-28 14:48:53,541 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39116, fd = 6
+2017-03-28 14:48:54,544 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39117, fd = 6
+2017-03-28 14:48:55,546 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39118, fd = 6
+2017-03-28 14:48:56,549 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39119, fd = 6
+2017-03-28 14:48:57,552 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39120, fd = 6
+2017-03-28 14:48:58,555 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39121, fd = 6
+2017-03-28 14:48:59,558 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39122, fd = 6
+2017-03-28 14:49:00,560 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39123, fd = 6
+2017-03-28 14:49:01,564 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39124, fd = 6
+2017-03-28 14:49:02,566 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39125, fd = 6
+2017-03-28 14:49:03,569 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39126, fd = 6
+2017-03-28 14:49:04,571 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39127, fd = 6
+2017-03-28 14:49:05,575 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39128, fd = 6
+2017-03-28 14:49:06,577 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39129, fd = 6
+2017-03-28 14:49:07,579 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39130, fd = 6
+2017-03-28 14:49:08,583 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39131, fd = 6
+2017-03-28 14:49:09,586 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39132, fd = 6
+2017-03-28 14:49:10,588 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39133, fd = 6
+2017-03-28 14:49:11,590 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39134, fd = 6
+2017-03-28 14:49:12,593 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39135, fd = 6
+2017-03-28 14:49:13,595 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39136, fd = 6
+2017-03-28 14:49:14,597 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39137, fd = 6
+2017-03-28 14:49:15,601 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39138, fd = 6
+2017-03-28 14:49:16,603 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39139, fd = 6
+2017-03-28 14:49:17,606 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39140, fd = 6
+2017-03-28 14:49:18,609 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39141, fd = 6
+2017-03-28 14:49:19,611 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39142, fd = 6
+2017-03-28 14:49:20,613 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39143, fd = 6
+2017-03-28 14:49:21,615 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39144, fd = 6
+2017-03-28 14:49:22,617 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39145, fd = 6
+2017-03-28 14:49:23,620 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39146, fd = 6
+2017-03-28 14:49:24,623 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39147, fd = 6
+2017-03-28 14:49:25,625 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39148, fd = 6
+2017-03-28 14:49:26,628 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39149, fd = 6
+2017-03-28 14:49:27,630 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39150, fd = 6
+2017-03-28 14:49:28,632 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39151, fd = 6
+2017-03-28 14:49:29,635 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39152, fd = 6
+2017-03-28 14:49:30,637 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39153, fd = 6
+2017-03-28 14:49:31,639 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39154, fd = 6
+2017-03-28 14:49:32,642 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39155, fd = 6
+2017-03-28 14:49:33,644 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39156, fd = 6
+2017-03-28 14:49:34,647 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39157, fd = 6
+2017-03-28 14:49:35,649 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39158, fd = 6
+2017-03-28 14:49:36,652 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39159, fd = 6
+2017-03-28 14:49:37,655 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39160, fd = 6
+2017-03-28 14:49:38,657 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39161, fd = 6
+2017-03-28 14:49:39,659 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39162, fd = 6
+2017-03-28 14:49:40,661 - socketserver - DEBUG - Accept Connection From 127.0.0.1, 39163, fd = 6
+2017-03-28 14:51:40,043 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39191, fd = 6
+2017-03-28 14:51:41,048 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39192, fd = 6
+2017-03-28 14:51:42,050 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39193, fd = 6
+2017-03-28 14:51:43,052 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39194, fd = 6
+2017-03-28 14:51:44,054 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39195, fd = 6
+2017-03-28 14:51:45,057 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39196, fd = 6
+2017-03-28 14:51:46,059 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39197, fd = 6
+2017-03-28 14:51:47,061 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39198, fd = 6
+2017-03-28 14:51:48,064 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39199, fd = 6
+2017-03-28 14:51:49,066 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39200, fd = 6
+2017-03-28 14:51:50,069 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39201, fd = 6
+2017-03-28 14:51:51,073 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39202, fd = 6
+2017-03-28 14:51:52,076 - socketserver - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39203, fd = 6
+2017-03-28 14:55:02,338 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 14:55:02,338 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:05:44,702 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 15:05:44,702 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:06:01,476 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39208, fd = 6
+2017-03-28 15:06:01,508 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:01,508 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:02,510 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39209, fd = 6
+2017-03-28 15:06:02,512 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:02,512 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:03,514 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39210, fd = 6
+2017-03-28 15:06:03,515 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:03,515 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:04,517 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39211, fd = 6
+2017-03-28 15:06:04,518 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:04,518 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:05,521 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39212, fd = 6
+2017-03-28 15:06:05,523 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:05,524 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:06,525 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39213, fd = 6
+2017-03-28 15:06:06,527 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:06,527 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:07,529 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39214, fd = 6
+2017-03-28 15:06:07,530 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:07,531 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:08,533 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39215, fd = 6
+2017-03-28 15:06:08,534 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:08,534 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:09,536 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39216, fd = 6
+2017-03-28 15:06:09,538 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:09,538 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:10,540 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39217, fd = 6
+2017-03-28 15:06:10,542 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:10,542 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:06:11,543 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39218, fd = 6
+2017-03-28 15:06:11,544 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:06:11,545 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:20,430 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 15:10:20,431 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:10:30,039 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39254, fd = 6
+2017-03-28 15:10:30,041 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:30,041 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:31,043 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39255, fd = 6
+2017-03-28 15:10:31,044 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:31,044 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:32,046 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39256, fd = 6
+2017-03-28 15:10:32,047 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:32,047 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:33,049 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39257, fd = 6
+2017-03-28 15:10:33,050 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:33,050 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:34,052 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39258, fd = 6
+2017-03-28 15:10:34,054 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:34,054 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:35,056 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39259, fd = 6
+2017-03-28 15:10:35,057 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:35,058 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:36,059 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39260, fd = 6
+2017-03-28 15:10:36,061 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:36,061 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:37,063 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39261, fd = 6
+2017-03-28 15:10:37,065 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:37,065 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:38,066 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39262, fd = 6
+2017-03-28 15:10:38,068 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:38,068 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:39,070 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39263, fd = 6
+2017-03-28 15:10:39,071 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:39,071 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:40,074 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39264, fd = 6
+2017-03-28 15:10:40,075 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:40,075 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:41,076 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39265, fd = 6
+2017-03-28 15:10:41,078 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:41,078 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:42,079 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39266, fd = 6
+2017-03-28 15:10:42,080 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:42,081 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:43,083 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39267, fd = 6
+2017-03-28 15:10:43,084 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:43,085 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:44,086 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39268, fd = 6
+2017-03-28 15:10:44,088 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:44,088 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:45,090 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39269, fd = 6
+2017-03-28 15:10:45,091 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:45,092 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:46,093 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39270, fd = 6
+2017-03-28 15:10:46,094 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:46,095 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:47,096 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39271, fd = 6
+2017-03-28 15:10:47,097 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:47,097 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:48,099 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39272, fd = 6
+2017-03-28 15:10:48,100 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:48,100 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:49,102 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39273, fd = 6
+2017-03-28 15:10:49,103 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:49,103 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:50,105 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39274, fd = 6
+2017-03-28 15:10:50,106 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:50,106 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:51,108 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39275, fd = 6
+2017-03-28 15:10:51,110 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:51,110 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:52,111 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39276, fd = 6
+2017-03-28 15:10:52,114 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:52,114 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:53,115 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39277, fd = 6
+2017-03-28 15:10:53,116 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:53,117 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:54,120 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39278, fd = 6
+2017-03-28 15:10:54,121 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:54,122 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:55,124 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39279, fd = 6
+2017-03-28 15:10:55,125 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:55,126 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:56,127 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39280, fd = 6
+2017-03-28 15:10:56,129 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:56,129 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:57,131 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39281, fd = 6
+2017-03-28 15:10:57,133 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:57,133 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:10:58,135 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39282, fd = 6
+2017-03-28 15:10:58,136 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:10:58,136 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:46,356 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 15:11:46,356 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:11:54,193 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39286, fd = 6
+2017-03-28 15:11:54,196 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:54,196 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:55,198 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39287, fd = 6
+2017-03-28 15:11:55,199 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:55,199 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:56,200 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39288, fd = 6
+2017-03-28 15:11:56,202 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:56,202 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:57,204 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39289, fd = 6
+2017-03-28 15:11:57,205 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:57,205 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:58,207 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39290, fd = 6
+2017-03-28 15:11:58,209 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:58,209 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:11:59,211 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39291, fd = 6
+2017-03-28 15:11:59,213 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:11:59,213 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:00,214 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39292, fd = 6
+2017-03-28 15:12:00,215 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:00,216 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:01,218 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39293, fd = 6
+2017-03-28 15:12:01,219 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:01,219 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:02,221 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39294, fd = 6
+2017-03-28 15:12:02,222 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:02,223 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:03,224 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39295, fd = 6
+2017-03-28 15:12:03,226 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:03,226 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:04,228 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39296, fd = 6
+2017-03-28 15:12:04,229 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:04,229 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:05,232 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39297, fd = 6
+2017-03-28 15:12:05,233 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:05,234 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:06,236 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39298, fd = 6
+2017-03-28 15:12:06,237 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:06,237 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:07,239 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39299, fd = 6
+2017-03-28 15:12:07,241 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:07,241 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:08,243 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39300, fd = 6
+2017-03-28 15:12:08,244 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:08,245 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:09,247 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39301, fd = 6
+2017-03-28 15:12:09,248 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:09,249 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:10,250 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39302, fd = 6
+2017-03-28 15:12:10,252 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:10,252 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:11,254 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39303, fd = 6
+2017-03-28 15:12:11,255 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:11,255 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:12,257 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39304, fd = 6
+2017-03-28 15:12:12,258 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:12,258 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:13,260 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39305, fd = 6
+2017-03-28 15:12:13,262 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:13,262 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:14,264 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39306, fd = 6
+2017-03-28 15:12:14,265 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:14,265 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:15,267 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39307, fd = 6
+2017-03-28 15:12:15,268 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:15,268 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:16,270 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39308, fd = 6
+2017-03-28 15:12:16,271 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:16,271 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:17,273 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39309, fd = 6
+2017-03-28 15:12:17,275 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:17,275 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:18,277 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39310, fd = 6
+2017-03-28 15:12:18,279 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:18,279 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:19,280 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39311, fd = 6
+2017-03-28 15:12:19,282 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:19,283 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:20,284 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39312, fd = 6
+2017-03-28 15:12:20,286 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:20,286 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:21,287 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39313, fd = 6
+2017-03-28 15:12:21,288 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:21,289 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:12:22,290 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39314, fd = 6
+2017-03-28 15:12:22,291 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:12:22,292 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:03,983 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 15:13:03,983 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:13:09,947 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39321, fd = 6
+2017-03-28 15:13:09,948 - SocketServer - DEBUG - RecvData: The Number is 23
+2017-03-28 15:13:09,948 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:09,948 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:10,949 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39322, fd = 6
+2017-03-28 15:13:10,950 - SocketServer - DEBUG - RecvData: The Number is 30
+2017-03-28 15:13:10,950 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:10,950 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:11,952 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39323, fd = 6
+2017-03-28 15:13:11,953 - SocketServer - DEBUG - RecvData: The Number is 27
+2017-03-28 15:13:11,953 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:11,953 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:12,955 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39324, fd = 6
+2017-03-28 15:13:12,956 - SocketServer - DEBUG - RecvData: The Number is 60
+2017-03-28 15:13:12,956 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:12,956 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:13,958 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39325, fd = 6
+2017-03-28 15:13:13,958 - SocketServer - DEBUG - RecvData: The Number is 94
+2017-03-28 15:13:13,960 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:13,960 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:13:14,962 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39326, fd = 6
+2017-03-28 15:13:14,962 - SocketServer - DEBUG - RecvData: The Number is 1
+2017-03-28 15:13:14,962 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:13:14,962 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:09,911 - SocketServer - DEBUG - Create Logging Handler Successed
+2017-03-28 15:14:09,911 - SocketServer - DEBUG - Create Server Socket Successed
+2017-03-28 15:14:16,226 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39327, fd = 6
+2017-03-28 15:14:16,226 - SocketServer - DEBUG - RecvData: The Number is 56
+2017-03-28 15:14:16,227 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:16,227 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:17,229 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39328, fd = 6
+2017-03-28 15:14:17,229 - SocketServer - DEBUG - RecvData: The Number is 101
+2017-03-28 15:14:17,229 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:17,229 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:18,231 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39329, fd = 6
+2017-03-28 15:14:18,231 - SocketServer - DEBUG - RecvData: The Number is 57
+2017-03-28 15:14:18,231 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:18,231 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:19,234 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39330, fd = 6
+2017-03-28 15:14:19,234 - SocketServer - DEBUG - RecvData: The Number is 8
+2017-03-28 15:14:19,234 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:19,234 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:20,236 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39331, fd = 6
+2017-03-28 15:14:20,236 - SocketServer - DEBUG - RecvData: The Number is 13
+2017-03-28 15:14:20,236 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:20,237 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:21,238 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39332, fd = 6
+2017-03-28 15:14:21,239 - SocketServer - DEBUG - RecvData: The Number is 45
+2017-03-28 15:14:21,241 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:21,241 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:22,243 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39333, fd = 6
+2017-03-28 15:14:22,243 - SocketServer - DEBUG - RecvData: The Number is 84
+2017-03-28 15:14:22,243 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:22,243 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:23,245 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39334, fd = 6
+2017-03-28 15:14:23,246 - SocketServer - DEBUG - RecvData: The Number is 17
+2017-03-28 15:14:23,246 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:23,246 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:24,248 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39335, fd = 6
+2017-03-28 15:14:24,248 - SocketServer - DEBUG - RecvData: The Number is 8
+2017-03-28 15:14:24,248 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:24,249 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:25,250 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39336, fd = 6
+2017-03-28 15:14:25,251 - SocketServer - DEBUG - RecvData: The Number is 92
+2017-03-28 15:14:25,251 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:25,251 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:26,252 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39337, fd = 6
+2017-03-28 15:14:26,253 - SocketServer - DEBUG - RecvData: The Number is 78
+2017-03-28 15:14:26,254 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:26,254 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:27,256 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39338, fd = 6
+2017-03-28 15:14:27,257 - SocketServer - DEBUG - RecvData: The Number is 98
+2017-03-28 15:14:27,257 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:27,257 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:28,259 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39339, fd = 6
+2017-03-28 15:14:28,260 - SocketServer - DEBUG - RecvData: The Number is 83
+2017-03-28 15:14:28,260 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:28,260 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:29,262 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39340, fd = 6
+2017-03-28 15:14:29,263 - SocketServer - DEBUG - RecvData: The Number is 85
+2017-03-28 15:14:29,263 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:29,263 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:30,265 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39341, fd = 6
+2017-03-28 15:14:30,265 - SocketServer - DEBUG - RecvData: The Number is 74
+2017-03-28 15:14:30,265 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:30,265 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:31,267 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39342, fd = 6
+2017-03-28 15:14:31,268 - SocketServer - DEBUG - RecvData: The Number is 6
+2017-03-28 15:14:31,269 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:31,269 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:32,271 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39343, fd = 6
+2017-03-28 15:14:32,271 - SocketServer - DEBUG - RecvData: The Number is 64
+2017-03-28 15:14:32,271 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:32,271 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:33,274 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39344, fd = 6
+2017-03-28 15:14:33,274 - SocketServer - DEBUG - RecvData: The Number is 60
+2017-03-28 15:14:33,274 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:33,275 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:34,276 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39345, fd = 6
+2017-03-28 15:14:34,276 - SocketServer - DEBUG - RecvData: The Number is 8
+2017-03-28 15:14:34,276 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:34,277 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:35,279 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39346, fd = 6
+2017-03-28 15:14:35,279 - SocketServer - DEBUG - RecvData: The Number is 96
+2017-03-28 15:14:35,279 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:35,280 - SocketServer - DEBUG - EndHup Client Socket TearDown
+
+2017-03-28 15:14:36,281 - SocketServer - DEBUG - SERVER SOCKET/1.0 Accept Connection From 127.0.0.1, 39347, fd = 6
+2017-03-28 15:14:36,282 - SocketServer - DEBUG - RecvData: The Number is 82
+2017-03-28 15:14:36,283 - SocketServer - DEBUG - SendData Finished
+2017-03-28 15:14:36,283 - SocketServer - DEBUG - EndHup Client Socket TearDown
+

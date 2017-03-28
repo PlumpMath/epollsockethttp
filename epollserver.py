@@ -1,7 +1,6 @@
 # 基于Asynchronous Socket Epoll的简单HTTP服务器Demo
 # 本HTTP SOCKET SERVER为TCP短暂连接实现，单次请求返回后即销毁SOCKET，故未考虑通信包的粘包问题
 # 若是TCP长久连接通信，需要解决长连接的数据流粘包问题
-# Server Host配置：  并发性能：
 # Author: WUWEI
 
 
@@ -15,49 +14,52 @@ import socket
 # 支持时间
 import time 
 # 支持日志记录
-import logging,errno
+import logging,errno,sys
 
 
-# logging.getLogger(name）初始化日志对象 
-logger = logging.getLogger('socketserver')
+# 初始化日志对象 
+logger = logging.getLogger('SocketServer')
 
 # 定义日志输出函数
 def initLog():
+    try:      
+        # 设置日志信息输出级别，一旦设置了日志等级，则调用比等级低的日志记录函数则不会输出
+        # 当seLevel设置为DEBUG时，可以截获取所有等级的输出
+        logger.setLevel(logging.DEBUG)
     
-    # 设置日志信息输出级别，一旦设置了日志等级，则调用比等级低的日志记录函数则不会输出
-    # 当seLevel设置为DEBUG时，可以截获取所有等级的输出
-    logger.setLevel(logging.DEBUG)
-    
-    # logging.FileHandler: 日志输出到文件
-    fh = logging.FileHandler('log/socketserver.log')
-    fh.setLevel(logging.DEBUG)
+        # logging.FileHandler: 日志输出到文件
+        fh = logging.FileHandler('log/socketserver.log')
+        fh.setLevel(logging.DEBUG)
     
     
-    # logging.StreamHandler: 日志输出到流，可以是sys.stderr、sys.stdout或者文件
+        # logging.StreamHandler: 日志输出到流，可以是sys.stderr、sys.stdout或者文件    
+        ch = logging.StreamHandler(sys.stderr)
+        ch.setLevel(logging.DEBUG)
     
-    ch = logging.StreamHandler()
-    ch.setLevel(logging.ERROR)
+        # 格式定义
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        ch.setFormatter(formatter)
+        fh.setFormatter(formatter)
     
-    # 格式定义
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    ch.setFormatter(formatter)
-    fh.setFormatter(formatter)
+        # logging有一个日志处理的主对象，其它处理方式都是通过addHandler添加进去的
+        logger.addHandler(fh)
+        logger.addHandler(ch)
     
-    # logging有一个日志处理的主对象，其它处理方式都是通过addHandler添加进去的
-    logger.addHandler(fh)
-    logger.addHandler(ch)
+        logger.debug('Create Logging Handler Successed\n')
+
+    except socket.error as msg:
+        logger.error('Create Logging Handler Failed',msg)
     
-    print('初始化日志输出模块成功')
 
 # 构造server响应信息
 def makeResponseMsg():
-    servertime = time.strftime("%a %b %d %H:%M:%S %Y", time.localtime())  
+    servertime = time.strftime('%a %b %d %H:%M:%S %Y', time.localtime())  
     response = 'SOCKET/1.0 RECEIVED OK Content-Type: Text/Plain %s\r\n'%servertime
     # 按utf-8的方式编码，将str转成bytes->b''
-    response = response.encode(encoding="utf-8")
+    response = response.encode(encoding='utf-8')
     return response
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     initLog()
 
     try:
@@ -71,8 +73,11 @@ if __name__ == "__main__":
         serversocket.listen(1)
         # 因为socket默认是阻塞的，设置为非阻塞（异步）模式
         serversocket.setblocking(0) 
+    
+        logger.debug('Create Server Socket Successed\n')
+    
     except socket.error as msg:
-        logger.error('create server socket failed')
+        logger.error('Create Server Socket Failed',msg)
 
     try:    
         # 创建一个epoll对象 
@@ -83,10 +88,10 @@ if __name__ == "__main__":
         # EPOLLET：表示对应的文件描述符设定为edge模式
         epoll = select.epoll() 
 
-        # 在服务端socket上面注册对读event的关注,当发生对serversocket的读事件时，引发一个事件
+        # 在serversocket上面注册对读event的关注,当发生对serversocket的读事件时，引发一个事件
         epoll.register(serversocket.fileno(), select.EPOLLIN)
     except select.error as msg:
-        logger.error('create server epoll object failed',msg)
+        logger.error('Register Server Socket Epoll Listening Failed',msg)
     
     try:
         # connections以socket.fileno()为键，以socket为值，将文件描述符（整数）映射到网络连接对象，一一对应 
@@ -109,12 +114,11 @@ if __name__ == "__main__":
                 # fileno是epoll.register监听触发事件获取到的值，serversocket.fileno()是自己获取的值
                 # 如果为真，代表有连接请求到serversocket产生event被epoll监听到了
                 if fileno == serversocket.fileno(): 
-                    # connection新线程的socket，用于与客户端通信, address客户端信息
+                    # 进行 accept -- 获得连接上来 client 的 ip 和 port，以及 socket 句柄
                     connection, address = serversocket.accept()
 
-                    logger.debug('accept connection from %s, %d, fd = %d' % (address[0], address[1], connection.fileno()))
+                    logger.debug('SERVER SOCKET/1.0 Accept Connection From %s, %d, fd = %d' % (address[0], address[1], connection.fileno()))
 
-                    print('SERVER SOCKET/1.0 RECEIVED FROM', address,'| %s'%time.strftime("%a %b %d %H:%M:%S %Y", time.localtime())) 
                     # 设置新的socket为非阻塞模式
                     connection.setblocking(0) 
 
@@ -145,13 +149,13 @@ if __name__ == "__main__":
                             del connections[fileno] 
                             # 删除接收数据字典对应的句柄对象 
                             del requests[connections[fileno]] 
-                            print(connections, requests) 
+                            logger.debug('Client Connection Disconnected',connections, requests)
                             epoll.modify(fileno, 0) 
                         else:
                             # 完整请求已收到，注销对读event的关注，注册对写（EPOLLOUT）event的关注
                             epoll.modify(fileno, select.EPOLLOUT) 
-                            # 打印完整的请求
-                            print('RecvData: ',requests[fileno].decode()) 
+                            logger.debug('RecvData: %s'%requests[fileno].decode())
+
                     except socket.error as msg:
                         logger.error('select.EPOLLIN failed',msg)
                 
@@ -167,7 +171,7 @@ if __name__ == "__main__":
                             # 一旦所有的响应数据都发送完, 取消监听读取和写入事件.
                             epoll.modify(fileno, 0) 
                             # 明确地让客户端socket断开
-                            print('SendData Finished') 
+                            logger.debug('Response SendData Finished')
                             connections[fileno].shutdown(socket.SHUT_RDWR)
                     except socket.error as msg:
                         logger.error('select.EPOLLOUT failed',msg)
@@ -182,7 +186,7 @@ if __name__ == "__main__":
                         # 关闭socket连接 
                         connections[fileno].close() 
                         del connections[fileno] 
-                        print('EndHup Client Socket TearDown\n\n') 
+                        logger.debug('EndHup Client Socket TearDown\n')
                     except socket.error as msg:
                         logger.error('select.EPOLLHUP failed',msg)
 
@@ -191,5 +195,4 @@ if __name__ == "__main__":
         epoll.unregister(serversocket.fileno()) 
         epoll.close() 
         serversocket.close() 
-        logger.debug("%s, %d closed" % (addresses[fd][0], addresses[fd][1]))
-
+        logger.debug('%s, %d Closed' % (addresses[fd][0], addresses[fd][1]))
